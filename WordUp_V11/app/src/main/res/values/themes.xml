@@ -1,0 +1,25 @@
+<resources>
+
+    <style name="SampleBase" parent="android:Theme.Holo.Light">
+    </style>
+
+    <style name="MyTheme" parent="SampleBase">
+
+        <item name="menuDrawerStyle">@style/MenuDrawerStyle</item>
+        <item name="android:actionBarStyle">@style/ActionbarStyle</item>
+    </style>
+
+    <style name="ActionbarStyle" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">#ffa07cdc</item>
+        <item name="android:titleTextStyle">@style/ActionbarTitleTextStyle</item>
+    </style>
+
+    <style name="ActionbarTitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="SampleTheme.BottomDrawer" parent="SampleBase">
+        <item name="menuDrawerStyle">@style/MenuDrawerStyle.Start</item>
+    </style>
+
+</resources>

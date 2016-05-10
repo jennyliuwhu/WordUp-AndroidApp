@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ActivityrView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+    <ImageView
+        android:id="@+id/background_img"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_marginTop="-90dp"
+        android:contentDescription="@null"
+
+        android:scaleType="fitXY"
+        android:src="@drawable/page_cover_car_background"/>
+
+    <com.example.jialingliu.wordup.entities.PullScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <!--android:background="@drawable/title_image"-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:orientation="vertical"
+            android:id="@+id/llout"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:id="@+id/scroll_view_head"
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:layout_marginTop="128dp"
+                android:background="@color/transparent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/user_avatar"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:padding="1px"
+                    android:background="@android:color/white"
+                    android:layout_marginLeft="21dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_launcher"/>
+
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/user_avatar"
+                    android:layout_marginLeft="13dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="3.0"
+                    android:shadowDy="3.0"
+                    android:shadowRadius="5.0"
+                    android:text="@string/user_name"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/white"/>
+
+                <FrameLayout
+                    android:id="@+id/user_divider_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/user_avatar"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginRight="21dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:contentDescription="@null"
+                        android:background="#DFDFDF"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="29dp"
+                        android:contentDescription="@null"
+                        android:src="@drawable/arrow_up"/>
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tv_note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/user_divider_layout"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginRight="21dp"
+                    android:layout_marginTop="8dp"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:text="@string/user_des"
+                    android:textSize="12sp"
+                    android:textColor="#B1B1B1"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:orientation="vertical"
+                android:paddingBottom="8dp"
+                android:background="#F7F4F0"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="5dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:text="@string/app_name"
+                    android:textSize="12sp"
+                    android:textColor="#A1A1A1"/>
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewpage_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="443dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/card_whole"
+                    android:layout_weight="6.44">
+
+                    <android.support.v4.view.PagerTitleStrip
+                        android:id="@+id/pager_title_strip_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_gravity="top"
+                        android:textColor="#ff8d8d8d"
+                        android:background="@drawable/card_whole"/>
+
+                </android.support.v4.view.ViewPager>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.example.jialingliu.wordup.entities.PullScrollView>
+
+</RelativeLayout>

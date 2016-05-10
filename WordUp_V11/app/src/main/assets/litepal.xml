@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="wordlist"></dbname>
+    <version value="5"></version>
+
+    <list>
+        <mapping class="com.example.jialingliu.wordup.model.Word"></mapping>
+        <mapping class="com.example.jialingliu.wordup.model.FavoriteWord"></mapping>
+        <mapping class="com.example.jialingliu.wordup.model.RecommendWord"></mapping>
+    </list>
+</litepal>

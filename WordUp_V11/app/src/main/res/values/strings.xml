@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WordUp</string>
+    <string name="action_back">Go Back</string>
+    <string name="sample_bottommenu">Today:</string>
+    <string name="pulldown_scrollview">PulldownScrollView</string>
+    <string name="button_next">Next</string>
+    <string name="user_post">Updated: 0 words</string>
+    <string name="user_look">Viewed: 0 times</string>
+    <string name="user_name">Unknown User</string>
+    <string name="user_des">Note:</string>
+    <string name="share_text">Hi, how are you? </string>
+    <string name="title_activity_about">About</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="noboringactionbar_title">Memorized</string>
+    <string name="my_email">contact:jialingliu1020@gmail.com</string>
+    <string name="my_name">author: Jialing Liu, Zhenbiao Yan</string>
+    <string name="about_declaration"></string>
+    <string name="double_click_exit">Press again to exit</string>
+    <string name="api"></string>
+    <string name="title_activity_setting">Settings</string>
+    <string name="hand_switch">left_hand_key</string>
+    <string name="my_favorite">My Favorite</string>
+    <string name="notify_with_phonetic">notify_with_phonetic</string>
+    <string name="current_word_id">current_word_id</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 8 [1.8.0_65]">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/Users/jialingliu/Downloads/json-20160212.jar"/>
+	<classpathentry kind="lib" path="/Users/jialingliu/Downloads/unirest-java-1.4.9.jar"/>
+	<classpathentry kind="lib" path="/Users/jialingliu/Desktop/Java Smart Phone Dev/team/api/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="/Users/jialingliu/Desktop/Java Smart Phone Dev/team/api/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/jialingliu/Desktop/Java Smart Phone Dev/team/api/lib/httpasyncclient-4.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/jialingliu/Desktop/Java Smart Phone Dev/team/api/lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="/Users/jialingliu/Desktop/Java Smart Phone Dev/team/api/lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="/Users/jialingliu/Desktop/Java Smart Phone Dev/team/api/lib/httpcore-nio-4.4.4.jar"/>
+	<classpathentry kind="lib" path="/Users/jialingliu/Desktop/Java Smart Phone Dev/team/api/lib/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="/Users/jialingliu/Desktop/Java Smart Phone Dev/team/api/lib/json-20160212.jar"/>
+	<classpathentry kind="lib" path="/Users/jialingliu/Desktop/Java Smart Phone Dev/team/api/lib/unirest-java-1.4.9.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
