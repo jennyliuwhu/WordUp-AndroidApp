@@ -6,7 +6,7 @@ With the database on the server side, the client communicate with the server usi
 
 To run this project, here is the instruction:
 
-1. Import code/server/WordUp to your eclipse. Modify the PASSWORD in org.wordup.DBConnectionHandler to your own MySQL root password. Besides, modify the key in org.wordup.DBConnectionHandler to your own WordsApi access key. 
+1. Import code/server/WordUp to your eclipse. Modify the PASSWORD in org.wordup.DBConnectionHandler to your own MySQL root password. Besides, modify the key in org.wordup.note to your own WordsApi access key. 
 
 2. Import code/client/WordUp_V11 to your android stutio. Modify the ip in com.example.jialingliu.wordup.server.App to your own computer's private ip address. 
 
